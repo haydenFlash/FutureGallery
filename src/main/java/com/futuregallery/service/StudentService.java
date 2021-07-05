@@ -19,4 +19,6 @@ public interface StudentService {
     Map<String, Object> editStudent(String id);
 
     boolean updateStudent(Student student);
+
+    Student getStudent(String id);
 }
